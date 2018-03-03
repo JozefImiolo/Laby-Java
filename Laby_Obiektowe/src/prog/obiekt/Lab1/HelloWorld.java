@@ -1,0 +1,18 @@
+package prog.obiekt.Lab1;
+
+import org.apache.log4j.Logger;
+
+
+public class HelloWorld {
+	
+	public static final Logger logger= Logger.getLogger(HelloWorld.class);
+	
+	public static void main (String[] args)
+	{
+		logger.info("Start...");
+		logger.info("Start...");
+		logger.info("Start...");
+	}
+
+
+}
